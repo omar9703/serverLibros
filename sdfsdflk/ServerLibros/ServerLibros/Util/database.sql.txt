@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS Users (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,	
+    nombre VARCHAR(100) NOT NULL,
+    fechaentrada VARCHAR(100) NOT NULL,
+    fechasalida VARCHAR(100),
+	autor VARCHAR(100) NOT NULL,
+	disponible VARCHAR(100) NOT NULL,
+	usuario VARCHAR(100)
+);
