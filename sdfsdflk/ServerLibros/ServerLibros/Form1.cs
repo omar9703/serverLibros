@@ -251,5 +251,11 @@ namespace ServerLibros
             udpClient.Close();
             udpClient2.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.Show();
+        }
     }
 }
